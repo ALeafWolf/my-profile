@@ -1,2 +1,5 @@
-<p>test {{ site.description | escape }}</p>
+<div>
+    <img src="{{ site.author.avatar }}" style="width: 40px; height: 40px; border-radius: 50%;" />
+</div>
+<p>{{ site.author.description | escape }}</p>
 {%- include social.html -%}

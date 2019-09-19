@@ -19,12 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: AQ's Profile
-author: Anran Qin
-description: A student who is passionate on computer science.
+author: 
+   name: Anran Qin
+   avatar: /assets/images/avator.png
+   description: A student who is passionate on computer science.
 baseurl: "/my-profile" # the subpath of your site, e.g. /blog
 url: "https://aleafwolf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: aleafwolf
 linkedin_username: anranqin
+background_image: /assets/images/background.jpg
 
 # Build settings
 theme: minima
